@@ -1,0 +1,5 @@
+.my-custom-sidebar-class {
+    background-image: url('/vendor/adminlte/dist/imagen/uatf.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

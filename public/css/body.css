@@ -1,0 +1,27 @@
+div:last-of-type {
+    display: none;
+    margin-bottom: 0;
+      
+}
+body p {
+    color: red;
+  }
+  
+.page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+  }
+  
+  .left {
+    grid-column: 1 / 2;
+  }
+  
+  .right {
+    grid-column: 2 / 3;
+  }
+  
+  .center {
+    text-align: center;
+  }

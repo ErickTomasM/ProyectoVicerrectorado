@@ -1,0 +1,23 @@
+.btn-pdf {
+    width: 135px;
+    height: 65px;
+}
+table td {
+    padding: 0px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+select {
+    margin-right: 0px;
+}
+
+table td {
+    padding: 0px;
+}
+.toggle-content i {
+    color: green;
+}
+.toggle-content i.fa-minus {
+    color: red;
+    
+}

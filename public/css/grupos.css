@@ -1,0 +1,64 @@
+
+#grupo-td {
+    width: 50px; 
+    color: rgb(170, 30, 30);
+  }
+  
+  thead {
+    margin-top: 40px;
+  }
+  
+  tbody {
+    margin-top: 40px;
+  }
+  
+  .sticky-header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+  
+  /* Establecer ancho de columna en el tbody */
+  tbody td:nth-child(1) {
+    width: 100px; /* Ancho de la primera columna */
+  }
+  
+  tbody td:nth-child(2) {
+    width: 200px; /* Ancho de la segunda columna */
+  }
+  
+  /* Establecer ancho de la última columna */
+  tbody td:last-child {
+    width: 150px; /* Ancho de la última columna */
+  }
+  /* asignado a: vista*/
+  #asignaciones_table .asignaciones-container {
+    display: grid;
+    gap: 10px;
+}
+
+#asignaciones_table .asignacion-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#asignaciones_table .grupo {
+    font-weight: bold;
+}
+
+#asignaciones_table .nombre-docente {
+    font-size: 14px;
+}
+
+#asignaciones_table .eliminar-asignacion-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin-left: auto;
+}
+
+ /* N° para que no ocupe mucho espacio*/
+ .numero-fila {
+  width: 1px; /* Ajusta el ancho según tus preferencias */
+}
